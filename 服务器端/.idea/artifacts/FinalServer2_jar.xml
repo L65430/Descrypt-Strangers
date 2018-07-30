@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="FinalServer2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FinalServer2_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FinalServer2.jar">
+        <element id="module-output" name="FinalServer2" />
+      </element>
+      <element id="file-copy" path="E:/Project_server/slf4j-api-1.7.7.jar" />
+      <element id="file-copy" path="E:/Project_server/fastjson-1.2.1.jar" />
+      <element id="file-copy" path="E:/Project_server/mysql-connector-java-5.1.6-bin.jar" />
+      <element id="file-copy" path="E:/Project_server/commons-codec-1.10.jar" />
+      <element id="file-copy" path="E:/Project_server/mina-core-2.0.9.jar" />
+      <element id="file-copy" path="E:/Project_server/slf4j-nop-1.6.4.jar" />
+      <element id="file-copy" path="E:/Project_server/mail.jar" />
+    </root>
+  </artifact>
+</component>

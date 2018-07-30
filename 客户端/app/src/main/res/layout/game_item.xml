@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/button_selector" >
+
+        <ImageView
+            android:id="@+id/gameicon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/gameicon"
+            android:text="三人行"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/bestcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:layout_below="@+id/game_name"
+            android:layout_toRightOf="@+id/gameicon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
